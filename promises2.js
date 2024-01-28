@@ -24,7 +24,7 @@ function newTest(marks, passingMarks){
 async function testCheck(){
     try{
     const a = await newTest(18, 48);
-    console.log("hogya")
+    console.log(a)
     } catch(err){
         console.log(err);
     }
